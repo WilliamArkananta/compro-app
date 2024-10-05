@@ -99,6 +99,7 @@ export default function Hero() {
           brands.
         </p>
         <CtaButton href="#">Explore My Work!</CtaButton>
+        <h1>Siapa ini?</h1>
       </div>
     </section>
   );
