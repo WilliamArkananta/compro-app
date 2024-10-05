@@ -1,0 +1,4 @@
+body{
+  background: var(--Token-Background, #F1F5F9);
+  margin: 0px auto;
+}
