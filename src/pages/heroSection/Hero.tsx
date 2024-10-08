@@ -1,5 +1,6 @@
 import CtaButton from "../../component/CtaButton";
 import SlideUpText from "./SlideUpText";
+import { gsap } from "gsap/gsap-core";
 
 export default function Hero() {
   return (
@@ -99,8 +100,15 @@ export default function Hero() {
           brands.
         </p>
         <CtaButton href="#">Explore My Work!</CtaButton>
-        <h1>Siapa ini?</h1>
       </div>
+      <img
+        className="absolute top-[5rem] right-0 animate-spin-slow"
+        src="public/triangle.png"
+      />
+      <img
+        className="absolute top-[30rem] right-[7rem] animate-spin-slow"
+        src="public/cross.png"
+      />
     </section>
   );
 }

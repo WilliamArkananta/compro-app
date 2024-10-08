@@ -2,7 +2,7 @@ import NavItem from "./NavItem";
 
 export default function Navbar() {
   return (
-    <nav className="border-b bg-glass-bg backdrop-blur-6">
+    <nav className="border-b bg-glass-bg backdrop-blur-6 z-1">
       <ul className="flex justify-center p-6 gap-[4.5rem] items-center">
         <NavItem href="#">About</NavItem>
         <NavItem href="#">Project</NavItem>
