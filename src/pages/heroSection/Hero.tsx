@@ -1,6 +1,5 @@
 import CtaButton from "../../component/CtaButton";
 import SlideUpText from "./SlideUpText";
-import { gsap } from "gsap/gsap-core";
 
 export default function Hero() {
   return (
