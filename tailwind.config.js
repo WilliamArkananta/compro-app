@@ -38,6 +38,7 @@ export default {
       animation:{
         'spin-slow':'spin 20s linear infinite',
         'floating':'float 5s ease infinite',
+        'infinite-scroll':'infinite-scroll 40s linear infinite',
       },
       keyframes:{
         float:{
@@ -45,6 +46,10 @@ export default {
           '50%':{transform: 'translateY(2%)'},
           '100%':{transform: 'translateY(-2%)'},
 
+        },
+        'infinite-scroll':{
+          '0%':{transform: 'translateX(0)'},
+          '100%':{transform: 'translateX(calc(-50%-20px))'},
         }
       }
     },

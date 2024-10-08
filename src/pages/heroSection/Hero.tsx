@@ -101,11 +101,11 @@ export default function Hero() {
         <CtaButton href="#">Explore My Work!</CtaButton>
       </div>
       <img
-        className="absolute top-[5rem] right-0 animate-spin-slow"
+        className="absolute top-[3rem] right-6 animate-spin-slow -z-10"
         src="public/triangle.png"
       />
       <img
-        className="absolute top-[30rem] right-[7rem] animate-spin-slow"
+        className="absolute top-[30rem] right-[7rem] animate-spin-slow -z-10"
         src="public/cross.png"
       />
     </section>
