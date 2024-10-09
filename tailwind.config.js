@@ -33,10 +33,15 @@ export default {
         
       },
       backdropBlur: {
+        '5':'5px',
         '6': '6px'
       },
       boxShadow:{
-        'button':'2px 5px 24px 0px rgba(0, 0, 0, 0.20)'
+        'button':'2px 5px 24px 0px rgba(0, 0, 0, 0.20)',
+        'card': '4px 4px 15px 3px rgba(0, 0, 0, 0.25)'
+      },
+      borderColor:{
+        'glass':'rgba(0, 0, 0, 0.50)',
       },
       animation:{
         'spin-slow':'spin 20s linear infinite',
@@ -52,7 +57,7 @@ export default {
         },
         'infinite-scroll':{
           '0%':{transform: 'translateX(0)'},
-          '100%':{transform: 'translateX(calc(-100%))'},
+          '100%':{transform: 'translateX(calc(-50% - 20px))'},
         }
       }
     },

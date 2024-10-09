@@ -12,13 +12,13 @@ const skills: String[] = [
 
 function Skills() {
   return (
-    <div className="w-full overflow-hidden bg-linear-main p-4 rounded-2xl">
-      <ul className="flex gap-9 w-full min-w-custom animate-infinite-scroll">
-        {skills.map((skill, index) => (
-          <div className="flex gap-9 items-center">
+    <div className="logos w-full overflow-hidden bg-linear-main p-4 rounded-2xl">
+      <ul className="logos-slide w-fit gap-9 flex whitespace-nowrap animate-infinite-scroll">
+        {[...skills, ...skills].map((skill, index) => (
+          <div className="img flex gap-9 items-center">
             <li
               key={index}
-              className="w-[180px] text-h3 text-background font-bold text-center"
+              className="text-h3 text-background font-bold text-center"
             >
               {skill}
             </li>

@@ -9,7 +9,7 @@ export default function App() {
       <Hero />
       <About />
       <svg
-        className="absolute top-0 -z-10"
+        className="absolute top-1 -z-10"
         xmlns="http://www.w3.org/2000/svg"
         width="305"
         height="611"
