@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      minWidth:{
+        'custom':'calc(180*9)'
+      },
       colors:{
         'accent-primary':'#3399FF',
         'accent-secondary':'#003366',
@@ -49,7 +52,7 @@ export default {
         },
         'infinite-scroll':{
           '0%':{transform: 'translateX(0)'},
-          '100%':{transform: 'translateX(calc(-50%-20px))'},
+          '100%':{transform: 'translateX(calc(-100%))'},
         }
       }
     },

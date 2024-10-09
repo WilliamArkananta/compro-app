@@ -3,7 +3,7 @@ import SlideUpText from "./SlideUpText";
 
 export default function Hero() {
   return (
-    <section className="flex justify-center items-center">
+    <section className="flex justify-center items-center mb-12">
       <div className="relative h-[637px]">
         <svg
           style={{ top: "56px" }}
