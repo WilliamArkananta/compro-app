@@ -3,7 +3,7 @@ import Skills from "./Skills";
 
 function About() {
   return (
-    <section className="flex flex-col justify-center items-center gap-8 mx-auto mb-12 lg:w-[1164px]">
+    <section className="flex flex-col justify-center items-center gap-8 mx-auto mb-16 lg:w-[1164px]">
       <h1 className="text-h1 font-bold">About Me</h1>
       <div className="body flex gap-9">
         <Picture />

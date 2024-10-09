@@ -22,7 +22,7 @@ const tools = [
 
 function Tools() {
   return (
-    <section className="flex flex-col justify-center items-center gap-8 mx-auto mb-12 lg:w-[1164px]">
+    <section className="flex flex-col justify-center items-center gap-8 mx-auto mb-16 lg:w-[1164px]">
       <h1 className="text-h1 font-bold">Title</h1>
       <div className="flex justify-center items-center content-center gap-9 self-stretch flex-wrap">
         {tools.map((tool) => (

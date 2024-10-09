@@ -77,11 +77,11 @@ export default function Hero() {
         </svg>
         <img
           className="absolute bottom-[70px] animate-[spin_10s_linear_infinite]"
-          src="public/circle.png"
+          src="public/background/circle.png"
         />
         <img
           className="absolute top-[100px] left-[430px] animate-spin-slow"
-          src="public/square.png"
+          src="public/background/square.png"
         />
         <img
           className="relative left-[-40px] top-[10px] animate-floating"
@@ -102,11 +102,11 @@ export default function Hero() {
       </div>
       <img
         className="absolute top-[3rem] right-6 animate-spin-slow -z-10"
-        src="public/triangle.png"
+        src="public/background/triangle.png"
       />
       <img
         className="absolute top-[30rem] right-[7rem] animate-spin-slow -z-10"
-        src="public/cross.png"
+        src="public/background/cross.png"
       />
     </section>
   );
