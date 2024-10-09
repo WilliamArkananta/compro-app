@@ -34,7 +34,8 @@ export default {
       },
       backdropBlur: {
         '5':'5px',
-        '6': '6px'
+        '6': '6px',
+        '12': '12px',
       },
       boxShadow:{
         'button':'2px 5px 24px 0px rgba(0, 0, 0, 0.20)',
