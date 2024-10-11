@@ -2,7 +2,7 @@ import Navbar from "./component/nav/Navbar";
 import About from "./pages/aboutSection/About";
 import Hero from "./pages/heroSection/Hero";
 import Tools from "./pages/toolsSection/Tools";
-
+import Process from "./pages/processSection/Process";
 export default function App() {
   return (
     <>
@@ -10,6 +10,7 @@ export default function App() {
       <Hero />
       <About />
       <Tools />
+      <Process />
       <div className="vector">
         <svg
           className="absolute top-1 -z-10"
