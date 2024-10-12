@@ -60,9 +60,24 @@ export default {
           '0%':{transform: 'translateX(0)'},
           '100%':{transform: 'translateX(calc(-50% - 20px))'},
         }
-      }
+      },
+      rotate: {
+        'y-180': '180deg',
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        '.backface-hidden': {
+          'backface-visibility': 'hidden',
+        },
+        '.perspective-1000': {
+          'perspective': '1000px',
+        },
+      }
+      addUtilities(newUtilities)
+    }
+  ],
 }
 

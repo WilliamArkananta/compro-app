@@ -3,6 +3,7 @@ import About from "./pages/aboutSection/About";
 import Hero from "./pages/heroSection/Hero";
 import Tools from "./pages/toolsSection/Tools";
 import Process from "./pages/processSection/Process";
+import Projects from "./pages/projectSection/Projects";
 export default function App() {
   return (
     <>
@@ -11,6 +12,8 @@ export default function App() {
       <About />
       <Tools />
       <Process />
+      <Projects />
+
       <div className="vector">
         <svg
           className="absolute top-1 -z-10"
