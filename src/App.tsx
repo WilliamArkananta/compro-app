@@ -4,6 +4,8 @@ import Hero from "./pages/heroSection/Hero";
 import Tools from "./pages/toolsSection/Tools";
 import Process from "./pages/processSection/Process";
 import Projects from "./pages/projectSection/Projects";
+import Forms from "./pages/formSection/Forms";
+
 export default function App() {
   return (
     <>
@@ -13,6 +15,7 @@ export default function App() {
       <Tools />
       <Process />
       <Projects />
+      <Forms />
 
       <div className="vector">
         <svg

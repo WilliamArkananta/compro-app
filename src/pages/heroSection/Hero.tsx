@@ -148,7 +148,9 @@ export default function Hero() {
           I create user-centered UI/UX designs that solve problems and elevate
           brands.
         </p>
-        <CtaButton href="#">Explore My Work!</CtaButton>
+        <CtaButton type="button" href="#">
+          Explore My Work!
+        </CtaButton>
       </div>
       <FloatingShapes />
     </section>
